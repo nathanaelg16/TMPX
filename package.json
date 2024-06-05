@@ -1,0 +1,10 @@
+{
+  "name": "tmpx",
+  "version": "1.0.0",
+  "description": "ephemeral file storage service",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "npm start --prefix ./server & npm run dev --prefix ./client",
+	"prod": "npm start --prefix /server & npm run start --prefix ./client"
+  }
+}
